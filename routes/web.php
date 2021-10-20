@@ -22,6 +22,7 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 //
+//jjj//
 Route::get('/video', function () {
    return view('front.video');
 });
