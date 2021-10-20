@@ -1,0 +1,15 @@
+@font-face {
+    font-family: notobold;
+    src: url("../FontWeb/NotoKufiArabic-Bold.ttf");
+}
+@font-face {
+    font-family: notoregular;
+    src: url("../FontWeb/notokufiarabic-regular.ttf");
+}
+@font-face {
+    font-family: arialbold;
+    src: url("../FontWeb/Arial-Rounded-MT.Ttf");
+}
+.NotoBold {font-family: notobold}
+.NotoRegular {font-family: notoregular}
+.ArialBold {font-family: arialbold}

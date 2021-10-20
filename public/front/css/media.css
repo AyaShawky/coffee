@@ -1,0 +1,275 @@
+@media (min-width: 1900px) {
+    .Top-Section-login .BgDark {
+        height: 100vh !important;
+    }
+    .Top-Section-Register .BgDark{
+        height: 100vh !important;
+    }
+}
+@media (max-width: 1024px) {
+    /* This is Large Screen */
+    .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {font-size: 11pt;}
+    .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item {margin-right: 2rem;}
+    .Top-Section .navbar {margin-top: 0px;padding: 0px !important;}
+    .changebgnavbar {border-radius: 0px;}
+    .TopSectionTeacher .Describe-Page p {width: 65%;}
+    .AboutSection .FoundingStaff .BoxFoundingStaff .box .titlesection {width: 95%;font-size: 10.5pt;word-spacing: 4px;}
+    .AboutSection .FoundingStaff .BoxFoundingStaff .box .describeSection ul li{font-size: 15px;}
+    .Top-Section-login .FormLogin form {width: 45%;}
+    .Top-Section-Register .FormLogin form{width: 50%;}
+    .AcademicNumber .top-section-number .describe-top-section p::before{right: -35px;}
+    .AcademicNumber .TitleSection{font-size: 15pt;}
+    .SettingSection .Section-Data .SideData{padding: 30px;}
+    .SettingSection .Section-Data .SideData .FormData .box {width: 80% !important;}
+    .CourseDetailSection .describe-teacher .data-teacher .img-teacher img{width: 100px;height: 100px;}
+    .forgetSection .BoxForget .form {width: 35% !important;padding: 10px;}
+}
+@media (max-width: 991px) {
+    /* This is Medium Screen */
+        .Top-Section .navbar {margin-top: 0px;padding: 0px !important;}
+        .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item {
+            margin-right: 0px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .Top-Section .navbar .navbar-collapse .navbar-nav {
+            margin-bottom: 10px;
+            overflow-y: auto;
+        }
+        .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item.teacher:before {
+            display: none !important;
+        }
+        .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item.teacher{margin-left: 0px !important;}
+        .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {font-size: 12pt;}
+        .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.registerBtn {
+            margin: auto;
+        }
+        .Top-Section .navbar .navbar-brand img {
+            width: 80.31px;
+            height: 86.91px;
+        }
+        .changebgnavbar {border-radius: 0px;}
+        .Top-Section .slider .SliderHomePage .item {
+            padding-top: 120px;
+        }
+        .Top-Section .slider .SliderHomePage .item .description-slider h1 {
+            width: 60%;
+            line-height: 50px;
+            font-size: 20px;
+        }
+        .Top-Section .slider .SliderHomePage .item .description-slider p{
+            width: 50%;
+            line-height: 40px;
+            font-size: 16px;
+        }
+        .Top-Section .slider .SliderHomePage .item .description-slider .LinkRegister a{
+            width: 170px;
+            font-size: 18px;
+        }
+        .features .top-section .DescriptionSection,
+        .fields .top-section .DescriptionSection,
+        .teachers .top-section .DescriptionSection {width: 70%;}
+        .features .BoxFeature .card .card-body .card-text {width: 100%;font-size: 13px;}
+        .fields .BoxFields .field {margin-bottom: 20px !important;}
+        .fields .BoxFields .card{margin-left: 0px !important;margin-right: 0px !important;}
+        .fields .BoxFields .card .card-img .img-card {height: 200px;}
+        .fields .BoxFields .box:nth-child(3) .card {width: 100% !important;margin-top: 0px;}
+        .opnion .OpinionSlider .item {box-shadow: none;border: 1px solid #9A9A9A;}
+        .footer .topSection .DescribeContact {text-align: center;margin-bottom: 30px;}
+        .ContactUs .top-section .DescriptionSection{font-size: 16px;}
+        .footer .DescribeContact .describe {margin: auto;}
+        .footer {padding-top: 60px;}
+        .footer .ContactInfo {
+            justify-content: center !important;
+            text-align: center;
+        }
+        .footer .SocialContact {margin-bottom: 30px;}
+
+        .TopSectionTeacher .Describe-Page p {width: 85%;}
+
+        .AboutSection .FoundingStaff .BoxFoundingStaff .box .titlesection{width: 100%;}
+        .AboutSection .FoundingStaff .BoxFoundingStaff .box .describeSection ul li{font-size: 20px;}
+
+        .CourseSection .CourseBox .Boxs .box .card .card-body .card-text{width: 95%;}
+        .CourseSection .CourseBox .Boxs .box .card {margin-bottom: 45px;}
+        .CourseSection .SearchBox .box {padding: 30px;}
+        .Top-Section-course .Describe-Page p {width: 90%;}
+
+        .Top-Section-login .FormLogin form{width: 60%;}
+        .Top-Section-Register .FormLogin form{width: 70%;}
+        .Top-Section-login .BgDark{padding-top: 180px;}
+        .AcademicNumber .top-section-number .describe-top-section p::before{right: -30px;}
+        .AcademicNumber .top-section-number .describe-top-section p{width: 70%;}
+
+        .SettingSection .Section-Data .SideData{padding: 30px;}
+        .SettingSection .Section-Data .SideData .FormData .box {width: 90% !important;}
+
+        .Top-Section-setting .navbar .navbar-collapse .navbar-nav .nav-item{margin-right: 0px;text-align: center;}
+
+        .CourseDetailSection .video-section .video video{height: auto;}
+        .CourseDetailSection .video-section .icon-play i{font-size: 4rem;}
+        .CourseDetailSection .whatlearn .what{padding: 20px;}
+        .CourseDetailSection .detial-course .data-time-course{margin-bottom: 20px;}
+        .CourseDetailSection .detial-course .box-sale .text-offer{width: 90% !important;}
+        .CourseDetailSection .describe-teacher .data-teacher .img-teacher img{width: 100px;height: 100px;}
+        .CourseDetailSection .describe-teacher .data-teacher p{width: 90%;}
+        .CourseDetailSection .whatlearn .what .box-feat .box span{font-size: 15px;}
+        .CourseDetailSection .whatlearn{margin-bottom: 50px;}
+
+        .forgetSection .BoxForget .form {width: 50% !important;padding: 10px;}
+}
+@media (max-width: 425px) {
+    /* This is Small Screen */
+    .Top-Section .navbar {margin-top: 0px;padding: 0px !important;}
+    .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item {
+        margin-right: 0px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .Top-Section .navbar .navbar-collapse .navbar-nav {
+        margin-bottom: 10px;
+        overflow-y: auto;
+    }
+    .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item.teacher:before {
+        display: none !important;
+    }
+    .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item.teacher{margin-left: 0px !important;}
+    .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {font-size: 10pt;}
+    .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.registerBtn {
+        margin: auto;
+    }
+    .Top-Section .navbar .navbar-brand img {
+        width: 70.31px;
+        height: 76.91px;
+    }
+    .changebgnavbar {border-radius: 0px;}
+    .Top-Section .slider .SliderHomePage .item {
+        padding-top: 120px;
+    }
+    .Top-Section .slider .SliderHomePage .item .description-slider h1 {
+        width: 100%;
+        line-height: 50px;
+        font-size: 20px;
+    }
+    .Top-Section .slider .SliderHomePage .item .description-slider p{
+        width: 100%;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .Top-Section .slider .SliderHomePage .item .description-slider .LinkRegister a{
+        width: 130px;
+        font-size: 16px;
+    }
+
+
+    .features {padding-bottom: 60px;}
+    .features .top-section{margin-bottom: 120px;}
+    .features .top-section .DescriptionSection,
+    .fields .top-section .DescriptionSection,
+    .teachers .top-section .DescriptionSection {
+        width: 100%;
+        font-size: 15px;
+    }
+    .features .BoxFeature .feat:nth-child(1) {margin-bottom: 100px;}
+    .features .BoxFeature .feat:nth-child(2) {margin-bottom: 100px;}
+    .features .BoxFeature .card .card-body .card-text {font-size: 15px;width: 90%;}
+
+    .fields .BoxFields .field {
+        margin-bottom: 20px;
+    }
+
+
+    .teachers .BoxTeacherSlider .owl-stage-outer {margin-bottom: 20px;}
+    .opnion .OpinionSlider .item {box-shadow: none;border: 1px solid #9A9A9A;}
+    .opnion .OpinionSlider .item .d-flex .OpinionDescription p {width: 100%;font-size: 13px;}
+    .opnion .OpinionSlider .item .d-flex img {
+        width: 70px;
+        height: 70px;
+    }
+    .opnion .top-section .DescriptionSection{font-size: 16px;}
+    .ContactUs .top-section .TitleSection{font-size: 16pt !important;}
+    
+    .footer {
+        padding-top: 50px;
+        background:#002347;
+    }
+    .footer .topSection .DescribeContact {text-align: center;margin-bottom: 30px;}
+    .footer .DescribeContact .describe {width: 100%;}
+    .footer .SocialContact {margin-bottom: 30px;}
+    .footer .ContactInfo {
+        justify-content: center !important;
+        text-align: center;
+    }
+    .opnion .OpinionSlider .item .d-flex {padding: 10px;}
+    .ContactUs .top-section .DescriptionSection {font-size: 15px;}
+    .footer .ContactInfo .header span{border-bottom: 2px solid white;padding-bottom: 10px;}
+    .footer .ContactInfo .header .borderBottom {border: none !important;}
+
+
+
+    .TopSectionTeacher .Describe-Page p,.Top-Section-about .Describe-Page p {width: 100%;}
+    .TopSectionTeacher .TabPage ,.Top-Section-about .TabPage {margin-bottom: 30px;}
+
+    .AboutSection .FoundingStaff, .WelcomeSection .top-section {margin-bottom: 50px;}
+    .AboutSection .FoundingStaff .BoxFoundingStaff .box .titlesection{width: 100%;}
+    .AboutSection .FoundingStaff .BoxFoundingStaff .box .describeSection ul li span{font-size: 15px;top: -10px;}
+    .AboutSection .FoundingStaff .top-section .TitleSection ,
+    .AboutSection .WelcomeSection .top-section .TitleSection,
+    .CourseSection .CourseBox .top-section .TitleSection,
+    .TeachersSection .top-section .TitleSection  {font-size: 15pt !important;}
+    .TeachersSection .top-section .TitleSection{margin-bottom: 50px;}
+    
+
+
+    .Top-Section-course .Describe-Page p{width: 100%;}
+
+    .CourseSection .SearchBox .box {
+        width: 100%;
+        padding: 10px;
+    }
+    .CourseSection .SearchBox .box .FormSearch .form input{padding: 5px;}
+    .CourseSection .SearchBox .box .FormSearch .form .btn{
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 15px;
+    }
+    .CourseSection .CourseBox .Boxs .box .card .card-body .card-text{width: 100%;}
+    .CourseSection .CourseBox .Boxs .box .card .card-body .card-btn a{font-size: 18px;}
+    .CourseSection .CourseBox .Boxs .box .card {margin-bottom: 30px;}
+    .Top-Section-course .BgDark {padding-bottom: 100px;}
+    .CourseSection .CourseBox .Boxs .box .card {margin-left: 0px; margin-right: 0px;}
+
+
+    .Top-Section-login .FormLogin form,
+    .Top-Section-Register .FormLogin form{width: 100%;}
+    .Top-Section-login .BgDark {padding-top: 150px;}
+    .SettingSection .Section-Data .SideData{padding: 30px;}    
+    .SettingSection .Section-Data .SideData .FormData .box {width: 100% !important;}
+    .SettingSection .Section-Data .SideSection {padding-left: 10px;}
+
+    .CourseDetailSection .video-section .video video{height: auto;}
+    .CourseDetailSection .video-section .icon-play i{font-size: 4rem;}
+    .CourseDetailSection .whatlearn .what{padding: 20px;}
+    .CourseDetailSection .detial-course .describe-course{flex-direction: column !important;}
+    .CourseDetailSection .detial-course .data-time-course{margin-bottom: 20px;}
+    .CourseDetailSection .box-sale{margin-top: 0px !important;}
+    .CourseDetailSection .detial-course .box-sale .text-offer{width: 90% !important;}
+    .CourseDetailSection .describe-teacher .data-teacher .img-teacher img{width: 50px;height: 50px;}
+    .CourseDetailSection .describe-teacher .data-teacher p{width: 100%;}
+    .CourseDetailSection .whatlearn .what .box-feat .box span{font-size: 15px;}
+    .CourseDetailSection .whatlearn{margin-bottom: 50px;}
+    .forgetSection {margin-top: 50px;margin-bottom: 50px;}
+    .forgetSection .BoxForget .form {width: 100% !important;padding: 10px;}
+    .chat_ib h5{
+        display: none;
+    }.chat_img{
+        width: 100% !important;
+    }.mesgs{padding: 10px !important;}
+    .received_withd_msg{width: 100% !important;}
+    .incoming_msg_img{width: 15% !important;}
+    .received_msg {width: 80% !important;}
+    .inbox_people{width: 35% !important;}
+    .headind_srch{padding: 10px !important;}
+    .sent_msg{width: 90% !important;}
+    .input_msg_write input{font-size: 8pt !important;}
+}

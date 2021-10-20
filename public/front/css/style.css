@@ -1,0 +1,1093 @@
+/* Setting Browser */
+* {margin: 0;padding: 0}
+html{scroll-behavior: smooth}
+@media (min-width: 1200px) {
+    .container-fluid{width: 1000px}
+}
+.DeleteEffects{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.HideSection {
+    transform: scale(0);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.Toped {
+
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    font-size: 24px;
+    background: #0d6efd;
+    padding: 5px 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 21px;
+    right: 23px;
+    z-index: 999999;
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.Toped i {
+    margin-top: 5px;
+}
+.Toped_show {
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.gCdMUP{display: none !important;}
+.fXBuHm {font-family: 'notoregular' !important;}
+.dJvETY .fNswYa {font-family: 'arialbold' !important;}
+.contactIconWhatApp ,.contactIconMessenger,.contactIconcomments{
+    z-index: 10;
+    bottom: 30px;
+    left: 30px;
+}
+.contactIconcomments {
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    font-size: 24px;
+    background: #0d6efd;
+    border-radius: 50%;
+    display: flex;align-items: center;justify-content: center;
+    cursor: pointer;
+    z-index: 16000161;
+}
+/*
+    This is Style Home Page..
+*/
+    /* This is CSS Style navbar */
+
+    .ChangeSizeImgNav{
+        width: 65.31px !important;
+        height: 71.91px !important;
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: width 1s, height 1s;
+        -moz-transition: width 1s, height 1s;
+        -o-transition: width 1s, height 1s;
+    }
+    .changebgnavbar{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        background: rgba(0,35,71,1) !important;
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+    }
+    .Top-Navbar-Account{background: rgba(0,35,71,1) !important;}
+    .Top-Section .navbar{
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+    }
+    .Top-Section .navbar .navbar-brand img{
+        width: 70.31px;
+        height: 76.91px;
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+    }
+
+    .Top-Section .navbar .navbar-toggler {font-size: 25px;}
+    .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item {margin-right: 2.5rem}
+    .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{font-size: 10pt;color: white}
+    .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link span{
+        border-bottom: 3px solid rgba(255, 255, 255, 0);
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+    .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link span:hover{
+        border-bottom: 3px solid rgba(255, 255, 255, 1);
+    }
+    .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active span{border-bottom: 3px solid white}
+    .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.registerBtn {
+        background: #0074B8;
+        border: 2px solid #0074B8;
+        width: 120px;
+        border-radius: 0px;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+    .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.registerBtn:hover{
+        background: none;
+        border: 2px solid #0074B8;
+        color: white;
+    }
+    .Top-Section .navbar .navbar-collapse .navbar-nav .nav-item.teacher:before{
+        content: ' ';
+        position: absolute;
+        width: 35px !important;
+        height: 1px !important;
+        left: -55%;
+        top: 45%;
+        background: white;
+        transform: rotate(90deg);
+    }
+
+    /* This is CSS Style slider */
+    .Top-Section .slider .SliderHomePage .item{
+        padding-top: 200px;
+        padding-bottom: 230px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .Top-Section .slider .SliderHomePage .item .description-slider h1{width: 50%;line-height: 70px;font-size: 27px;}
+    .Top-Section .slider .SliderHomePage .item .description-slider p{
+        width: 31%;
+        line-height: 45px;
+        font-size: 17px;
+    }
+    .Top-Section .slider .SliderHomePage .owl-dots{position: absolute;width: 100%;bottom: 70px;}
+    .Top-Section .slider .SliderHomePage .owl-dots .owl-dot span{
+        width: 17px;
+        height: 17px;
+        border: 1px solid white;
+        background:none ;
+    }
+    .Top-Section .slider .SliderHomePage .owl-dots .owl-dot.active span{background-color: white}
+    .Top-Section .slider .SliderHomePage .item .description-slider .LinkRegister a:hover {
+        background: none;
+        color: white !important;
+    }
+    .Top-Section .slider .SliderHomePage .item .description-slider .LinkRegister a{
+        width: 150px;
+        font-size: 16px;
+        padding: 10px 0px;
+        border: 2px solid #0074B8;
+        background: #0074B8;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+
+    /* Features Section*/
+    .features{
+        padding-top: 60px;
+        padding-bottom: 120px;
+        background-image: url("../img/Backgrounds/FeatureBg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .features .top-section{margin-bottom: 150px}
+    .features .top-section .TitleSection, .teachers .top-section .TitleSection{font-size: 18pt !important; color: #002347;}
+    .features .top-section .DescriptionSection,
+    .fields .top-section .DescriptionSection,
+    .teachers .top-section .DescriptionSection{
+        color: #0074B8;
+        font-size: 16px;
+        width: 45%;
+        line-height: 40px
+    }
+    .features .BoxFeature .card{
+        box-shadow: 0px 5px 20px rgba(0,0,0,0.13);
+        border-radius: 10px 10px 10px 50px;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+
+    .features .BoxFeature .card:hover svg .ChangeColor path ,
+    .features .BoxFeature .card:hover svg .ChangeColor circle{
+        fill: #da559a !important;
+    }
+    .features .BoxFeature .card:hover .card-body .card-title {color: #da559a;}
+    .features .BoxFeature .card:hover .card-body .divider-card {
+        background-color: #da559a;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+    .features .BoxFeature .card svg .ChangeColor path ,
+    .features .BoxFeature .card svg .ChangeColor circle {
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+
+    .features .BoxFeature .card .card-img-top{position: absolute;top: -55px;}
+    .features .BoxFeature .card .card-body{padding-top: 105px}
+    .features .BoxFeature .card .card-body .card-title{
+        color: #0074B8;
+        font-size: 13pt;
+        transition: 0.5s all;
+        margin-bottom: 30px !important;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+    .features .BoxFeature .card .card-body .card-text{
+        font-size: 11pt;
+        width: 75%;
+        line-height: 40px;
+    }
+    .features .BoxFeature .card-body .divider-card{
+        width: 70%;
+        height: 3px;
+        border-radius: 10px;
+        background-color: #0074B8;
+    }
+
+    /* This is CSS Style Fields Section */
+    .fields{
+        background: url("../img/Backgrounds/FieldsBg.png"),#002347;
+        background-size: 78%, 100%;
+        background-position: center 30%;
+        background-repeat: no-repeat no-repeat;
+    }
+    .fields .top-section .TitleSection {font-size: 18pt;}
+    .fields .BoxFields .card {border-radius: 20px}
+    .fields .BoxFields .box:nth-child(1) .card{margin-left: 25px;}
+    .fields .BoxFields .box:nth-child(2) .card{margin-right: 25px;}
+    .fields .BoxFields .box:nth-child(3) .card{margin-top: 40px;}
+    .fields .BoxFields .card .card-img .img-card{
+        height: 250px;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        border-radius: 20px;
+    }
+    .fields .BoxFields .card .card-body .titleCard .linkFields:hover{
+        background: none;
+        color: #0074B8 !important;
+    }
+    .fields .BoxFields .card .card-body .titleCard .linkFields {
+        background: #0074B8;
+        border: 1px solid #0074B8;
+        font-size: 10pt;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+    .fields .BoxFields .card .card-body .titleCard .card-title {color: #303030;font-size: 13pt}
+    .fields .BoxFields .card .card-body .fieldsDescription li{list-style: circle;color: #303030;font-size: 10pt}
+
+    /* This is CSS Style Teachers Section */
+    .teachers{
+        padding-top: 60px;
+        background: linear-gradient(#FFFFFF,rgba(0,35,71,0.03));
+        background-size: cover;
+        clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+    }
+    .teachers .BoxTeacherSlider .card {
+        box-shadow: 0px 0px 25px rgba(67, 67, 67, 0.12);
+        border-radius: 10px;
+        margin: 15px;
+    }
+    .teachers .BoxTeacherSlider .owl-stage-outer{
+        padding-top: 150px;
+        margin-bottom: 70px;
+    }
+    .teachers .BoxTeacherSlider .card .card-img-top{
+        position: absolute;
+        width: 100%;
+    }
+    .teachers .BoxTeacherSlider .card .card-img-top img{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        margin: auto;
+        position: relative;
+        top: -75px;
+        box-shadow: 0px 0px 12px rgba(67, 67, 67, 0.3);
+        border: 3px solid #0074B8;
+    }
+    .teachers .BoxTeacherSlider .card .card-body{
+        margin-top: 110px;
+        padding: 0px;
+    }
+    .teachers .BoxTeacherSlider .card .card-body .card-title{
+        font-size: 15pt;
+        color: #002347;
+        margin-bottom: 35px;
+    }
+    .teachers .BoxTeacherSlider .owl-nav{padding-bottom: 150px;}
+    .teachers .BoxTeacherSlider .owl-nav .owl-prev,.teachers .BoxTeacherSlider .owl-nav .owl-next{
+        width: 55px;
+        height: 55px;
+        border: 2px solid #002347;
+        border-radius: 0px;
+        color: #002347;
+        font-size: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .teachers .BoxTeacherSlider .card .card-body .card-text{
+        font-size: 12pt;
+        color: #303030;
+        width: 70%;
+        line-height: 35px;
+        margin-bottom: 60px;
+    }
+    .teachers .BoxTeacherSlider .card .card-body .linkTeacher:hover{
+        color: #0074B8;
+        background: none;
+    }
+    .teachers .BoxTeacherSlider .card .card-body .linkTeacher {
+        font-size: 10pt;
+        background-color: #0074B8;
+        border: 1px solid #0074B8;
+        color: white;
+        width: 100px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-bottom: 25px !important;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+    .teachers .BoxTeacherSlider .card .imgStyle{
+        width: 100%;
+        position: absolute;
+    }
+    .teachers .BoxTeacherSlider .card .imgStyle img{
+        width: 45%;
+        position: relative;
+        margin: auto;
+        top: -100px;
+        left: -10px;
+    }
+
+    /* This is CSS Style Opinion Section */
+    .opnion {margin-bottom: 100px;}
+    .opnion .top-section {color: #002347;margin-bottom: 50px;}
+    .opnion .top-section .TitleSection{font-size: 20pt !important;color: #002347;}
+    .opnion .top-section .DescriptionSection{
+        color: #0074B8;
+        font-size: 18px;
+        line-height: 40px
+    }
+    .opnion .OpinionSlider .owl-stage-outer{padding-top: 30px;padding-bottom: 30px;}
+    .opnion .OpinionSlider .item {
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.07);
+        border-radius: 5px;
+    }
+    .opnion .OpinionSlider .item .d-flex {
+        padding: 15px 15px 15px 15px;
+    }
+    .opnion .OpinionSlider .item .d-flex img {width: 90px;height: 90px;border-radius: 3px;}
+    .opnion .OpinionSlider .item .d-flex .OpinionDescription h5 {color:#002347;font-size: 14pt;}
+    .opnion .OpinionSlider .item .d-flex .OpinionDescription p {
+
+        font-size: 13.5px;
+        color: #9A9A9A;
+        line-height: 25px;
+    }
+
+    /* This is CSS Style Contact Us Section */
+    .ContactUs {
+        padding-bottom: 50px;
+        background-image: url("../img/Backgrounds/ContactBg.png");
+        background-repeat: no-repeat;
+        background-size: 70%;
+        background-position:center center ;
+        background-clip: padding-box;
+        background-origin: content-box;
+        background-position-y: 20px;
+    }
+    .ContactUs .imgContact img{margin-top: -40px;width: 70px;height: 70px;}
+    .ContactUs .top-section {color: #002347;margin-top: 50px;}
+    .ContactUs .top-section .TitleSection{color: #002347;margin-bottom: 40px;font-size: 18pt !important;}
+    .ContactUs .top-section .DescriptionSection{
+        color: #0074B8;
+        font-size: 16pt;
+        margin-bottom: 35px;
+    }
+    .ContactUs .top-section .LinkContact:hover::after {
+        border: 3px solid white;
+    }
+    .ContactUs .top-section .LinkContact:hover{
+        background: white;
+        border: 3px solid #002347;
+        color: #002347;
+    }
+    .ContactUs .top-section .LinkContact{
+        color: white;
+        width: 230px;
+        margin: auto;
+        background: #002347;
+        padding: 15px;
+        border-radius: 50px;
+        border: 3px solid #002347;
+        position: relative;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+    .ContactUs .top-section .LinkContact::after{
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 50px;
+        border: 3px solid white;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+    .ContactUs .top-section .LinkContact span{font-size: 20px;}
+    .ContactUs .top-section .LinkContact img{width: 40px;}
+
+     /* This is CSS Style Footer Section */
+    .footer {
+        background:url('../img/Backgrounds/FooterBackground.png'), #002347;
+        background-size: cover;
+        color: white;
+        padding-top: 100px;
+    }
+    .footer .DescribeContact .describe{
+        font-size: 12px;
+        width: 80%;
+        line-height: 25px;
+    }
+    .footer .SocialContact .header {
+        font-size: 12px;
+    }
+    .footer .SocialContact .header .BorderBottom{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    }
+    .footer .SocialContact .SocialLink a i:hover {
+        background: none;
+        border: 1px solid white;
+        color: white;
+
+    }
+    .footer .SocialContact .SocialLink a i{
+        width: 40px;
+        height: 40px;
+        background: white;
+        border: 1px solid white;
+        color: #002347;
+        font-size: 25px;
+        border-radius: 50px;
+        margin-left: 7px;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+    .footer .ContactInfo .header{
+        color: #DA559A;
+        margin-bottom: 30px;
+    }
+    .footer .ContactInfo .header .borderBottom{
+        border-bottom: 2px solid white;
+        padding-bottom: 10px;
+    }
+    .footer .ContactLink .link {
+        margin-bottom: 20px;
+        font-size: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .footer .ContactLink .link i {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .footer .copyright .text {color: rgba(255, 255, 255, 0.3);}
+
+/*
+    This is Style Teachers Page..
+*/
+    /* This is Style Top Section  */
+    .TopSectionTeacher{
+        padding-top: 150px;
+        padding-bottom: 70px;
+        color: white;
+        background-image: url('../img/Public/BgTeachers.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .TopSectionTeacher .Describe-Page p{font-size: 14pt;line-height: 40px;width:60%;}
+    .TopSectionTeacher .Describe-Page .namePage{font-size: 18pt !important;}
+
+    /* This is Style TeachersSection  */
+    .TeachersSection {padding-bottom: 70px;padding-top: 70px;}
+    .TeachersSection .BoxTeacher .box {
+        display: none;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+    }
+    .TeachersSection .BoxTeacher .box:nth-child(1),
+    .TeachersSection .BoxTeacher .box:nth-child(2),
+    .TeachersSection .BoxTeacher .box:nth-child(3),
+    .TeachersSection .BoxTeacher .box:nth-child(4),
+    .TeachersSection .BoxTeacher .box:nth-child(5),
+    .TeachersSection .BoxTeacher .box:nth-child(6){
+        display: block;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+    }
+    .TeachersSection .BoxTeacher .box .card {
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+        margin-bottom: 35px;
+    }
+    .TeachersSection .BoxTeacher .card .card-img {
+        width: auto;
+        height: 271px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    .TeachersSection .top-section .TitleSection{font-size: 18pt !important;margin-bottom: 100px;color: #303030;}
+    .TeachersSection .BoxTeacher .card .card-body .card-title ul {
+        list-style-image: url('../img/Public/panel.svg');
+        font-size: 18px;
+    }
+    .TeachersSection .BoxTeacher .card .card-body .card-text ul {
+        list-style-image: url('../img/Public/document.svg');
+        font-size: 14px;
+        line-height: 32px;
+        color: #707070;
+    }
+    .TeachersSection .BoxTeacher .card .card-body ul li>p{
+        font-size: 10pt;
+        text-align: justify;
+        line-height: 25px;
+    }
+    .TeachersSection .BoxTeacher .card .card-body ul li>span {font-size: 12pt;}
+    .TeachersSection .BoxTeacher .card .card-body ul li>p,.TeachersSection .BoxTeacher .card .card-body ul li>span {
+        position: relative;
+        left: -2px;
+        top: -3px;
+        font-size: 14px;
+    }
+    .TeachersSection .BtnMore{background-color: #FCFCFF;padding-top: 30px;padding-bottom: 30px;}
+    .TeachersSection .BtnMore .btn {
+        width: 160px;
+        padding: 20px;
+    }
+    .TeachersSection .BtnMore .btn h5{font-size: 12pt !important;}
+    .TeachersSection .BtnMore .btn:hover{color: white !important;}
+
+
+
+/*
+    This is Style Teachers Page..
+*/
+    /* This is Style Top-Section-about  */
+    .Top-Section-about{
+        padding-top: 180px;
+        padding-bottom: 140px;
+        color: white;
+        background-image: url('../img/Public/BgAbout.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .Top-Section-about .Describe-Page h2{font-size: 18pt !important;}
+    .Top-Section-about .Describe-Page p{font-size: 14pt;line-height: 40px;width:55%;}
+
+    /* This is Style AboutSection  */
+    .AboutSection {padding-bottom: 70px;padding-top: 70px;}
+    .AboutSection .top-section h3 {
+        color: #002347;
+        font-size: 18pt !important;
+    }
+    .AboutSection .FoundingStaff {margin-bottom: 50px;}
+    .AboutSection .FoundingStaff .BoxFoundingStaff{margin-top: 80px;}
+    .AboutSection .FoundingStaff .BoxFoundingStaff .videoStaff .box .modal-dialog{max-width: 800px !important;}
+    .AboutSection .FoundingStaff .BoxFoundingStaff .videoStaff .box .modal-dialog .modal-content{
+        background: white;
+        border-radius: 5px;
+    }
+    .AboutSection .FoundingStaff .BoxFoundingStaff .box .describeSection ul{
+        list-style-image: url('../img/Public/checkabout.svg');
+        font-size: 17.5px;
+        color: #002347;
+    }
+    .AboutSection .FoundingStaff .BoxFoundingStaff .box .describeSection ul li{margin-bottom: 6px;}
+    .AboutSection .FoundingStaff .BoxFoundingStaff .box .describeSection ul li span{
+        position: relative;
+        left: -10px;
+        top: -7px;
+        font-size: 11pt;
+    }
+    .AboutSection .FoundingStaff .BoxFoundingStaff .box .titlesection{
+        font-size: 12pt;
+        color: #0074B8;
+        width: 75%;
+        line-height: 40px;
+        word-spacing: 5px;
+    }
+    .AboutSection .FoundingStaff .BoxFoundingStaff .videoStaff .box .BgImageVideo {
+        z-index: 2;
+        /*background-image: url('../img/Public/aboutVideo.png');
+        background-size: cover;*/
+    }
+    .AboutSection .FoundingStaff .BoxFoundingStaff .videoStaff .box .BgImageVideo i {
+        width: 90px;
+        height: 90px;
+        background-color: white;
+        border-radius: 50%;
+        font-size: 23px;
+        cursor: pointer;
+    }
+    @keyframes waves {
+        0% {
+          -webkit-transform: scale(0.2, 0.2);
+          transform: scale(0.2, 0.2);
+          opacity: 0;
+        }
+        50% {
+          opacity: 0.9;
+        }
+        100% {
+          -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+          opacity: 0;
+        }
+      }
+    .AboutSection .FoundingStaff .BoxFoundingStaff .videoStaff .box .BgImageVideo .waves {
+        position: absolute;
+        width: 190px;
+        height: 190px;
+        background: rgba(255, 255, 255, 0.16);
+        opacity: 0;
+        border-radius: 100%;
+        z-index: -1;
+        -webkit-animation: waves 3s ease-in-out infinite;
+        animation: waves 3s ease-in-out infinite;
+    }
+    .AboutSection .FoundingStaff .BoxFoundingStaff .videoStaff .box .BgImageVideo .wave-1 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    }
+    .AboutSection .FoundingStaff .BoxFoundingStaff .videoStaff .box .BgImageVideo .wave-2 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    }
+    .AboutSection .FoundingStaff .BoxFoundingStaff .videoStaff .box .BgImageVideo .wave-3 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    }
+
+    /* This is Style WelcomeSection  */
+    .WelcomeSection {
+        background-image: url('../img/Public/BgWelcomeAbout.png');
+        background-position: center center;
+        background-size: 100%;
+    }
+    .WelcomeSection .top-section {margin-bottom: 60px;}
+    .WelcomeSection .top-section .TitleSection {font-size: 18pt !important;margin-bottom: 30px !important;}
+    .WelcomeSection .top-section .describe-top-section {color: #DA559A;}
+    .WelcomeSection .BoxWelcome .box .img-section img{
+        width: 70px;
+        height: 70px;
+    }
+    .WelcomeSection .BoxWelcome .box .describe-section {margin-right: 15px;}
+    .WelcomeSection .BoxWelcome .box .describe-section h5{font-size: 12pt;margin-bottom: 10px !important;}
+    .WelcomeSection .BoxWelcome .box .describe-section p {
+        width: 95%;
+        font-size: 9.5pt;
+        text-align: justify;
+        line-height: 30px;
+    }
+
+    /* This is Style AcademicNumber  */
+    .AcademicNumber {
+        background-image: url('../img/Public/BgAcadimicNumber.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .AcademicNumber .TitleSection {font-size: 18pt;}
+    .AcademicNumber .bgBlued{
+        background:linear-gradient(rgba(62,70,143,0.7),rgba(0,116,184,0.7)) ;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .AcademicNumber .top-section-number .describe-top-section p {
+        width: 60%;
+        margin: auto;
+        font-size: 12pt;
+        line-height: 35px;
+    }
+    .AcademicNumber .top-section-number .describe-top-section p::after{
+        position: absolute;
+        content: url('../img/Public/QumaLeft.svg');
+        bottom: -15px;
+        left: -35px;
+    }
+    .AcademicNumber .top-section-number .describe-top-section p::before{
+        position: absolute;
+        content: url('../img/Public/QumaRight.svg');
+        right: -30px;
+        top: -5px;
+    }
+    .AcademicNumber .BoxNumber .box .Icon img{
+        width: 80px;
+        height: 80px;
+    }
+    .AcademicNumber .BoxNumber .box .Number h4{
+        font-size: 40px;
+    }
+
+/*
+    This is Style Course Page..
+*/
+    /* This is Style Top-Section-course */
+    .Top-Section-course{
+        color: white;
+        background-image: url('../img/Public/BgCourse.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .Top-Section-course .BgDark {
+        padding-top: 150px;
+        padding-bottom: 250px;
+        background-color: rgba(0, 0, 0, 0.57);
+    }
+    .Top-Section-course .Describe-Page .namePage {font-size: 18pt !important;}
+    .Top-Section-course .Describe-Page p{font-size: 14pt;line-height: 50px;width:60%;}
+
+    /* This is Style CourseSection */
+    .CourseSection .SearchBox .box{
+        padding: 40px;
+        width: 60%;
+        position: relative;
+        top: 37%;
+    }
+    .CourseSection .SearchBox .box .FormSearch .form input{
+        padding: 12px;
+        border-radius: 0px;
+    }
+    .CourseSection .SearchBox .box .FormSearch .form .btn{
+        padding-left: 35px;
+        padding-right: 35px;
+        font-size: 20px;
+        background: #002347;
+        color: white;
+    }
+    .CourseSection .CourseBox .top-section .TitleSection{font-size: 18pt !important;color: #002347;}
+    .CourseSection .CourseBox .top{margin-bottom:40px;}
+    .CourseSection .CourseBox .TitleBox{background: #DA559A;color: white;}
+    .CourseSection .CourseBox .Boxs {
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+    .CourseSection .CourseBox .Boxs .box .card{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 60px;
+        border-radius: 10px;
+        box-shadow: 0px 10px 80px rgba(56, 56, 56, 0.09);
+    }
+
+    .CourseSection .CourseBox .Boxs .box .card .card-img img{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .CourseSection .CourseBox .Boxs .box .card .card-body .card-text {
+        font-size: 13px;
+        color: #6A6A6A;
+        width: 100%;
+        line-height: 25px;
+    }
+    .CourseSection .CourseBox .Boxs .box .card .card-body .card-btn a {
+        font-size: 12pt;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+
+/*
+    This is Style Login Page..
+*/
+    /* This is Style Top-Section-login  */
+    .Top-Section-login{
+        color: white;
+        background-image: url('../img/Public/BgLogin.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .Top-Section-login .BgDark {
+        padding-top: 231px;
+        padding-bottom: 31px;
+        background-color: rgba(0, 0, 0, 0.57);
+    }
+    .Top-Section-login .BgDark .Describe-Page .namePage {font-size: 18pt;}
+    .Top-Section-login .Describe-Page p{font-size: 22px;line-height: 40px;width:60%;}
+    .Top-Section-login .FormLogin form {margin-bottom: 85px;width: 40%;}
+    .Top-Section-login .FormLogin form .ShowPassword{
+        background-color: rgba(255, 255, 255, 0.35);
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 25px;
+        color: white;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+    .Top-Section-login .FormLogin form .input input,
+    .Top-Section-login .FormLogin form .input .littletimeBtn {
+        padding: 25px;
+        background-color: rgba(255, 255, 255, 0.35);
+        color: white;
+        border-radius: 40px;
+    }
+    .Top-Section-login .FormLogin form input::placeholder {color: white;}
+    .Top-Section-login .FormLogin form input[type="checkbox"] {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+
+/*
+    This is Style Register Page..
+*/
+    /* This is Style Top-Section-register  */
+    .Top-Section-Register{
+        color: white;
+        background-image: url('../img/Public/BgRegister.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .Top-Section-Register .BgDark {
+        padding-top: 120px;
+        padding-bottom: 30px;
+        background-color: rgba(0, 0, 0, 0.57);
+    }
+    .Top-Section-Register .Describe-Page h3{font-size: 18pt;}
+    .Top-Section-Register .Describe-Page p{font-size: 22px;line-height: 40px;width:60%;}
+    .Top-Section-Register .FormLogin form {margin-bottom: 20px;width: 50%;}
+    .Top-Section-Register .FormLogin form .ShowPassword{
+        background-color: rgba(255, 255, 255, 0.35);
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 25px;
+        color: white;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+    .Top-Section-Register .FormLogin form .file-input label,
+    .Top-Section-Register .FormLogin form .input input,
+    .Top-Section-Register .FormLogin form .input .littletimeBtn {
+        padding: 25px;
+        background-color: rgba(255, 255, 255, 0.35);
+        color: white;
+        border-radius: 40px;
+    }
+    .Top-Section-Register .FormLogin form .file-input label {
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.35);
+        color: white;
+        border-radius: 40px;
+    }
+    .Top-Section-Register .FormLogin form .input select{
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.35);
+        color: white;
+        border-radius: 40px;
+    }
+    .Top-Section-Register .FormLogin form .input select option {
+        padding: 25px;
+        background: rgba(0, 0, 0, 0.35);
+        color: #fff;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
+    }
+    .Top-Section-Register .FormLogin form input::placeholder {color: white;}
+    .Top-Section-Register .FormLogin form input[type="checkbox"] {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+
+
+
+    .SettingSection{padding-top: 170px;padding-bottom: 100px;}
+    .SettingSection .Section-Data {
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0px 3px 15px rgba(81, 81, 81, 0.16);
+    }
+    .SettingSection .Section-Data .SideSection{
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-left: 0px ;
+    }
+    .SettingSection .Section-Data .SideSection .img-stduent .image-upload{
+        width: 35px;
+        height: 35px;
+        background-color: #0074B8;
+        color: white;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 10px;
+        left: -5px;
+    }
+    .SettingSection .Section-Data .SideSection .img-stduent .image-upload i{position: relative;left: -10px;}
+    .SettingSection .Section-Data .SideSection .img-stduent{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 4px solid white;
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16);
+    }
+    .SettingSection .Section-Data .SideNavbar .nav-link.active{
+        color: white;
+        background: #0074B8;
+    }
+    .SettingSection .Section-Data .SideNavbar .nav-link.notactive{
+        color: #303030;
+    }
+    .SettingSection .Section-Data .SideData{
+        padding-top: 70px;
+        padding-bottom: 100px;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+    .SettingSection .Section-Data .FormData form input:disabled{
+        background-color: white !important;
+        color: #B9B9B9;
+    }
+    .SettingSection .Section-Data .FormData form input::placeholder{font-size: 11pt;}
+    .SettingSection .Section-Data .link-Edit .nav-link.cancel {
+        border: 1px solid #0d6efd ;
+        color: #0d6efd !important;
+    }
+
+    .Top-Section-detial{background-color: rgba(0,35,71,1);}
+    .chat-icon {
+        bottom: 90px;
+        right: 35px;
+        width: 50px;
+        height: 50px;
+        background-color: #0d6efd;
+        font-size: 15pt;
+        z-index: 50;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: rotate(0deg);
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+    }
+    .chat-icon i {
+        transform: rotate(0deg);
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+    }
+    .chat-icon:hover i {
+        transform: rotate(70deg);
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+    }
+    .Top-Section-detial .navbar .navbar-brand img{width: 65px !important;height: 71px !important;}
+    .CourseDetailSection .video-section .icon-play{
+        z-index: 5;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .CourseDetailSection .video-section .icon-play i{font-size: 7rem;}
+    .CourseDetailSection .detial-course .describe-course h5 span,
+    .CourseDetailSection .detial-course .box-lecture h5 span,
+    .describe-teacher .title-section h5 span{
+        border-bottom: 3px solid #002347;
+        color: #002347;
+    }
+    .CourseDetailSection .detial-course .describe{
+        font-size: 11.5pt;
+        text-align: justify;
+        line-height: 40px;
+        width: 95%;
+    }
+    .CourseDetailSection .box-sale{
+        background: white;
+        color: #002347;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0,0.16);
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+    }
+    .CourseDetailSection .box-sale .sale {
+        font-size: 37px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .CourseDetailSection .box-sale .note{padding: 10px;border-radius: 5px;background: #DA559A;}
+    .CourseDetailSection .whatlearn{margin-bottom: 100px;}
+    .CourseDetailSection .whatlearn .what {padding: 40px;padding-bottom: 60px;padding-top: 65px;background: #F3F3F3;}
+    .CourseDetailSection .whatlearn .what .box-feat i{font-size: 22px;}
+    .CourseDetailSection .whatlearn .what .box-feat .box span{font-size: 11pt;}
+    .CourseDetailSection .detial-course .box-sale .text-offer{
+        line-height: 35px;
+        margin-top: 52px;margin-bottom: 52px;
+        font-size: 11pt;
+        width: 80% !important;
+    }
+    .CourseDetailSection .detial-course .box-sale .link a{border-radius: 4px;}
+    .CourseDetailSection .detial-course .box-lecture .accordion-item .accordion-header .accordion-button::after{
+        background: none;
+    }
+    .CourseDetailSection .detial-course .box-lecture .accordion-item .accordion-header .accordion-button{
+        background-color: #F9F9F9;
+        color: #303030;
+    }
+    .CourseDetailSection .detial-course .box-lecture .accordion-body .lecture a{color: #8A8A8A;}
+    .CourseDetailSection .detial-course .box-lecture .accordion-body .lecture a i{color: #000000;}
+    .CourseDetailSection .detial-course .box-lecture .accordion-body .lecture a .time{color: #002347;font-size: 15px;}
+    .CourseDetailSection .describe-teacher .data-teacher .img-teacher img{
+        width: 170px;
+        height: 170px;
+    }
+
+    .CourseDetailSection .describe-teacher .data-teacher p{
+        width: 70%;
+        font-size: 10.5pt;
+        text-align:justify;
+        line-height: 35px;
+    }
+
+    .forgetSection{margin-top: 100px;margin-bottom: 100px;padding: 0px !important;}
+    .forgetSection .BoxForget .form {width: 30%}
+

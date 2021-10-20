@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110.041" height="86.367" viewBox="0 0 130.041 108.367">
+  <g id="movie-player" transform="translate(0 -40)">
+    <g id="Group_437" data-name="Group 437" transform="translate(49.849 66.003)">
+      <g id="Group_436" data-name="Group 436">
+        <path id="Path_605" data-name="Path 605" d="M222.741,156.6a2.167,2.167,0,0,0-.823-.823L187.24,136.266a2.167,2.167,0,0,0-3.24,1.888v39.012a2.177,2.177,0,0,0,3.24,1.888l34.678-19.506A2.168,2.168,0,0,0,222.741,156.6ZM188.335,173.46v-31.6l28.089,15.8Z" transform="translate(-184 -135.982)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_439" data-name="Group 439" transform="translate(8.669 126.694)">
+      <g id="Group_438" data-name="Group 438">
+        <path id="Path_606" data-name="Path 606" d="M66.678,364.335V360H62.343v4.335H32v4.335H62.343V373h4.335v-4.335H144.7v-4.335Z" transform="translate(-32 -360)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_441" data-name="Group 441" transform="translate(30.343 53.004)">
+      <g id="Group_440" data-name="Group 440">
+        <path id="Path_607" data-name="Path 607" d="M146.678,88a34.678,34.678,0,1,0,34.678,34.678A34.678,34.678,0,0,0,146.678,88Zm0,65.02a30.343,30.343,0,1,1,30.343-30.343A30.343,30.343,0,0,1,146.678,153.02Z" transform="translate(-112 -88)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_443" data-name="Group 443" transform="translate(0 40)">
+      <g id="Group_442" data-name="Group 442">
+        <path id="Path_608" data-name="Path 608" d="M123.539,40H6.5A6.5,6.5,0,0,0,0,46.5v95.363a6.5,6.5,0,0,0,6.5,6.5H123.539a6.5,6.5,0,0,0,6.5-6.5V46.5A6.5,6.5,0,0,0,123.539,40Zm2.167,101.865a2.167,2.167,0,0,1-2.167,2.167H6.5a2.167,2.167,0,0,1-2.167-2.167V46.5A2.167,2.167,0,0,1,6.5,44.335H123.539a2.167,2.167,0,0,1,2.167,2.167Z" transform="translate(0 -40)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_445" data-name="Group 445" transform="translate(8.669 48.669)">
+      <g id="Group_444" data-name="Group 444" transform="translate(0 0)">
+        <rect id="Rectangle_149" data-name="Rectangle 149" width="4" height="4" transform="translate(0.331 0.331)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_447" data-name="Group 447" transform="translate(17.339 48.669)">
+      <g id="Group_446" data-name="Group 446" transform="translate(0 0)">
+        <rect id="Rectangle_150" data-name="Rectangle 150" width="5" height="4" transform="translate(-0.339 0.331)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_449" data-name="Group 449" transform="translate(26.008 48.669)">
+      <g id="Group_448" data-name="Group 448" transform="translate(0 0)">
+        <rect id="Rectangle_151" data-name="Rectangle 151" width="4" height="4" transform="translate(-0.008 0.331)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

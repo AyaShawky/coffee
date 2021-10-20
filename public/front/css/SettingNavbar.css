@@ -1,0 +1,78 @@
+.ChangeSizeImgNav{
+    width: 75.31px !important;
+    height: 81.91px !important;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: width 1s, height 1s;
+    -moz-transition: width 1s, height 1s;
+    -o-transition: width 1s, height 1s;
+}
+.changebgnavbar{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    background: rgba(0,35,71,1) !important;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+} 
+.Top-Navbar-Account{background: rgba(0,35,71,1) !important;}
+.Top-Section-setting .navbar{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.Top-Section-setting .navbar .navbar-brand img{
+    width: 60.31px;
+    height: 66.91px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.Top-Section-setting .navbar .navbar-toggler {font-size: 25px;}
+.Top-Section-setting .navbar .navbar-collapse .navbar-nav .nav-item {margin-right: 3rem}
+.Top-Section-setting .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{font-size: 10.5pt;color: white}
+.Top-Section-setting .navbar .navbar-collapse .navbar-nav .nav-item .nav-link span{
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all; 
+}
+.Top-Section-setting .navbar .navbar-collapse .navbar-nav .nav-item .nav-link span:hover{
+    border-bottom: 3px solid rgba(255, 255, 255, 1);
+}
+.Top-Section-setting .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active span{border-bottom: 3px solid white}
+.Top-Section-setting .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.registerBtn {
+    background: #0074B8;
+    border: 2px solid #0074B8;
+    width: 130px;
+    border-radius: 0px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.Top-Section-setting .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.registerBtn:hover{
+    background: none;
+    border: 2px solid #0074B8;
+    color: white;
+}
+.Top-Section-setting .navbar .collapse .top-navigate .img-user img{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16);
+}
+.Top-Section-setting .navbar .collapse .dropdown .dropdown-menu {margin-top: 10px;}
+.Top-Section-setting .navbar .collapse .dropdown .dropdown-menu .dropdown-item{font-size: 11pt;}
+.Top-Section-setting .dropdown-item.active, .Top-Section-setting .dropdown-item:active{
+    background: none !important;
+    color: #212529;
+}
+.Top-Section-setting .dropdown-item:hover{
+    background: rgba(33, 37, 41, 0.1) !important;
+}

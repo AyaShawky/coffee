@@ -1,0 +1,24 @@
+Configuration cache cleared!
+Configuration cached successfully!
+Route cache cleared!
+
+   LogicException 
+
+  Unable to prepare route [api/user] for serialization. Uses Closure.
+
+  at C:\wamp64\www\nnnnn\vendor\laravel\framework\src\Illuminate\Routing\Route.php:1150
+    1146|      */
+    1147|     public function prepareForSerialization()
+    1148|     {
+    1149|         if ($this->action['uses'] instanceof Closure) {
+  > 1150|             throw new LogicException("Unable to prepare route [{$this->uri}] for serialization. Uses Closure.");
+    1151|         }
+    1152| 
+    1153|         $this->compileRoute();
+    1154|
+
+  1   C:\wamp64\www\nnnnn\vendor\laravel\framework\src\Illuminate\Foundation\Console\RouteCacheCommand.php:62
+      Illuminate\Routing\Route::prepareForSerialization()
+
+  2   C:\wamp64\www\nnnnn\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      Illuminate\Foundation\Console\RouteCacheCommand::handle()
